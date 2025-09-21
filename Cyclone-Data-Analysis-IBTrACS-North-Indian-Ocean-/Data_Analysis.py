@@ -17,6 +17,7 @@ df = pd.read_csv("/Users/asmita/Desktop/cyclone data/IBTrACS.NI.v04r01_new.csv")
 
 print(df.info()) #basic info about the dataset
 print(df.shape) #how many rows and columns in total 
+print(df.head())
 
 # -------------------------------
 # 3. Data Cleaning & Transformation
